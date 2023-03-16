@@ -1,3 +1,4 @@
-<div>
-    <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
-</div>
+<nav class="nav-container">
+    <a><div><p>King Von</p></div></a>
+    <a><div><p>J Money</p></div></a>
+</nav>

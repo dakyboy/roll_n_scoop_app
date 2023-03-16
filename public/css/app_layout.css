@@ -8,7 +8,7 @@ html {
     font-size: 62.5%;
     min-width: 90%;
     margin: 0 auto;
-    
+
 }
 
 body {
@@ -20,9 +20,44 @@ body {
     color: #000000;
 }
 
+
+
+.app-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    flex: 1;
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: hsla(350, 93%, 77%, 5);
+}
+
+.title-text {
+    flex: 1;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.main-container h3 {
+    margin-top: -5%;
+    padding: 0 5%;
+}
+
 .title {
     text-align: center;
-    font-size: 12rem;
+    font-size: 9rem;
     margin: 0;
     padding: 0 5%;
     text-shadow: #7DC4BD 2px 5px;
@@ -30,8 +65,49 @@ body {
 
 .sub-title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 2vh;
     padding: 0 20%;
     text-shadow: #7DC4BD 1px 2px
+}
+
+.product-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 2rem;
+}
+
+.product-container a {
+    color: black;
+}
+
+.product-container a:hover {
+    color: #2c5853;
+    border-bottom: #AC001E solid .2rem;
+}
+
+.best-seller-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    margin: 1.6rem auto;
+    padding: 0 5%;
+}
+
+img {
+    aspect-ratio: 4 / 3;
+    height: 250px;
+    width: 250px;
+}
+
+footer {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #BED0FD;
+    color: black;
 }
