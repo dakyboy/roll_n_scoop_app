@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    font-size: 62.5%;
+    min-width: 90%;
+    margin: 0 auto;
+    
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    min-width: 150px;
+    margin: 0vh auto;
+    background-color: #FFC0CB;
+    color: #000000;
+}
+
+.title {
+    text-align: center;
+    font-size: 12rem;
+    margin: 0;
+    padding: 0 5%;
+    text-shadow: #7DC4BD 2px 5px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 4rem;
+    margin: 2vh;
+    padding: 0 20%;
+    text-shadow: #7DC4BD 1px 2px
+}
