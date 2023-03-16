@@ -20,6 +20,12 @@ body {
     color: #000000;
 }
 
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .title {
     text-align: center;
     font-size: 12rem;
