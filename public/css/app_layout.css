@@ -20,9 +20,8 @@ body {
     color: #000000;
 }
 
-.main-container h3 {
-    margin-top: -5%;
-}
+
+
 .app-container {
     display: flex;
     flex-flow: column wrap;
@@ -50,6 +49,12 @@ body {
     flex-flow: column wrap;
 }
 
+
+.main-container h3 {
+    margin-top: -5%;
+    padding: 0 5%;
+}
+
 .title {
     text-align: center;
     font-size: 9rem;
@@ -70,14 +75,25 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    padding: 2rem;
+}
 
+.product-container a {
+    color: black;
+}
+
+.product-container a:hover {
+    color: #2c5853;
+    border-bottom: #AC001E solid .2rem;
 }
 
 .best-seller-container {
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    margin: 1.6rem 2rem;
+    justify-content:space-around;
+    margin: 1.6rem auto;
+    padding: 0 5%;
 }
 
 img {
