@@ -8,8 +8,8 @@
 <section class="best-seller-container">
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_browse_foods')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App Screenshot of browse foods screen" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__2_r99upm')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>Bogoya Splash Special</p>
@@ -17,8 +17,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_order_item_details')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App screenshot of order item details" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__21_i6rarj')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>Cream Liqueur Special</p>
@@ -26,8 +26,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_cart')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App screenshot of cart" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__3_zy8rcb')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>Weed Cookie Special</p>
@@ -35,8 +35,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_completed_orders')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App screenshot of completed orders screen" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__4_y97tal')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>BYOT Special</p>
@@ -44,8 +44,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_browse_foods')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App Screenshot of browse foods screen" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__5_ayzjkl')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>Bogoya Splash Special</p>
@@ -53,8 +53,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_order_item_details')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App screenshot of order item details" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__6_cngwos')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>Cream Liqueur Special</p>
@@ -62,8 +62,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_cart')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App screenshot of cart" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__20_yn8f11')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>Weed Cookie Special</p>
@@ -71,8 +71,8 @@
     </div>
     <div class="product-container">
         <picture>
-            <img src="{{ $cloudinary->image('hunger_warrior_android/hw_completed_orders')->resize(Resize::fill(480, 800))->toUrl() }}"
-                alt="App screenshot of completed orders screen" width="480" height="800" loading="lazy" />
+            <img src="{{ $cloudinary->image('roll_n_scoop/rolls/rolled_ice_cream__18_o3bdjb')->resize(Resize::fill(250, 250))->toUrl() }}"
+                alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
             <p>BYOT Special</p>
