@@ -30,7 +30,7 @@
                 alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
-            <p>Weed Cookie Special</p>
+            <p>THC/CBD Special</p>
         </a>
     </div>
     <div class="product-container">
@@ -48,7 +48,7 @@
                 alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
-            <p>Bogoya Splash Special</p>
+            <p>Strawberry Special</p>
         </a>
     </div>
     <div class="product-container">
@@ -57,7 +57,7 @@
                 alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
-            <p>Cream Liqueur Special</p>
+            <p>Caramel & Coffee Special</p>
         </a>
     </div>
     <div class="product-container">
@@ -66,7 +66,7 @@
                 alt="App Screenshot of browse foods screen" width="250" height="250" loading="lazy" />
         </picture>
         <a>
-            <p>Weed Cookie Special</p>
+            <p>Blueberry Special</p>
         </a>
     </div>
     <div class="product-container">
