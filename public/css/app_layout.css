@@ -75,7 +75,9 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 2rem;
+    border: .2rem #7DC4BD solid;
+    padding: 1rem 2rem;
+    margin: .5rem auto;
 }
 
 .product-container a {
@@ -91,13 +93,13 @@ body {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 1.6rem auto;
     padding: 0 5%;
 }
 
 img {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
     height: 250px;
     width: 250px;
 }
@@ -110,4 +112,11 @@ footer {
     padding: 5px;
     background-color: #BED0FD;
     color: black;
+}
+
+/*for mobile devices with max decive width of 500*/
+@media screen and (max-device-width: 500px) {
+    .main-container h3 {
+        margin-top: 3%;
+    }
 }
