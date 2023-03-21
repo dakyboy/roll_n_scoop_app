@@ -1,125 +1,10 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
-    font-size: 62.5%;
-    min-width: 90%;
-    margin: 0 auto;
-
-}
-
-body {
-    font-size: 1.6rem;
-    height: 100vh;
-    min-width: 300px;
-    margin: 0vh auto;
-    background-color: #FFC0CB;
-    color: #000000;
-}
-
-
-
-.app-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-container {
-    width: 100%;
-    flex: 1;
-    padding: 2rem;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    background-color: hsla(350, 93%, 77%, 5);
-}
-
-.title-text {
-    flex: 1;
-}
-
-.main-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-}
-
-
-.main-container h3 {
-    border-top: #B55DFF .1rem solid;
-    margin-top: 3%;
-    padding: 1rem 5% 0;
-}
-
-.title {
-    text-align: center;
-    font-size: 9rem;
-    margin: 0;
-    padding: 0 5%;
-    text-shadow: #7DC4BD 2px 5px;
-}
-
-.sub-title {
-    text-align: center;
-    font-size: 2rem;
-    margin: 2vh;
-    padding: 0 20%;
-    text-shadow: #7DC4BD 1px 2px
-}
-
-.product-container {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    border: white.4rem solid;
-    border-radius: 10px;
-    margin: .5rem auto;
-}
-
 .product-container:hover {
     background-color: rgba(255, 255, 255, 0.4);
-}
-
-.product-container a {
-    color: black;
 }
 
 .product-container a:hover {
     color: #2c5853;
     border-bottom: #AC001E solid .2rem;
-}
-
-.best-seller-container {
-    max-width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: cen;
-    margin: 2rem auto;
-    padding: 0 2%;
-    align-items: center;
-    gap: 2rem 1rem;
-}
-
-img {
-    aspect-ratio: 1 / 1;
-    height: 250px;
-    width: 250px;
-}
-
-footer {
-    width: 100%;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #BED0FD;
-    color: black;
 }
 
 /*for mobile devices with max decive width of 500*/
@@ -133,8 +18,10 @@ footer {
 /*for mobile devices with max decive width of 1200*/
 @media screen and (min-width: 870px) {
     .main-container h3 {
-        
-        text-align: center;
         margin-top: -8rem;
+    }
+
+    .best-seller-container {
+        scroll-behavior: auto;
     }
 }
