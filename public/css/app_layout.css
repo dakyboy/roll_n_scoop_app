@@ -55,6 +55,7 @@ body {
     border-top: #B55DFF .1rem solid;
     margin-top: 3%;
     padding: 1rem 5% 0;
+    text-align: center;
 }
 
 .title {
@@ -96,10 +97,12 @@ body {
 }
 
 .best-seller-container {
+    max-height: 100vh;
     max-width: 80%;
+    overflow-y: scroll;
     display: flex;
     flex-flow: row wrap;
-    justify-content: cen;
+    justify-content: center;
     margin: 2rem auto;
     padding: 0 2%;
     align-items: center;
@@ -134,7 +137,7 @@ footer {
 @media screen and (min-width: 870px) {
     .main-container h3 {
         
-        text-align: center;
+        
         margin-top: -8rem;
     }
 }
