@@ -6,7 +6,7 @@
         color: black;
         padding: 2rem 1.6rem;
         height: 50%;
-        max-width: 92%;
+        width: 100%;
         overflow: auto;
         box-shadow: 1rem .5rem 1rem rgba(240, 54, 212, 0.744);
     }
@@ -17,15 +17,17 @@
 
     .about-us-container h3 {
         margin: 0;
+
     }
 
     .about-us-container article {
-        border: none
+        padding: 2rem 4rem;
     }
 </style>
+
 <section class="about-us-container">
     <article class="about-us-copy">
-        <h3>About Us</h3>
+        <h3 id="about-us-title">About Us</h3>
         <p> Welcome to our ice cream rolls parlor in Jinja! At our parlor, we're passionate about serving up delicious
             ice cream rolls that are made fresh right in front of your eyes using only the finest ingredients. Our team
             of ice cream enthusiasts is dedicated to providing a unique and unforgettable experience for our customers.

@@ -40,7 +40,10 @@
     }
 
     .about-us-container {
-        max-width: 50%;
         padding: 0 5rem;
+    }
+
+    .about-us-container article {
+        padding: 2rem 10rem;
     }
 }
