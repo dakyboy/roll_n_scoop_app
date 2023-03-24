@@ -25,3 +25,17 @@
         scroll-behavior: auto;
     }
 }
+
+/*for mobile devices with max decive width of 1200*/
+@media screen and (min-width: 1400px) {
+    .main-container h3 {
+        margin-top: -16rem;
+    }
+    .main-container  {
+        padding: 0 8%;
+    }
+
+    .best-seller-container {
+        max-width: 75%;
+    }
+}

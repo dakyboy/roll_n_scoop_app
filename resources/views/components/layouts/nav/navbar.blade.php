@@ -1,4 +1,11 @@
 <style>
+    header {
+        width: 100%;
+        padding: .1rem;
+        display: flex;
+        flex-flow: column;
+    }
+
     .nav-container {
         width: 100%;
         flex: 1;
@@ -10,6 +17,7 @@
         background-color: hsla(350, 93%, 77%, 5);
     }
 </style>
+
 <nav class="nav-container">
     <a>
         <div>

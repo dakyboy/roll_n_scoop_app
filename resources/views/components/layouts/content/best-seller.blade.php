@@ -13,16 +13,16 @@
     }
 
     .best-seller-container {
-        max-height: calc(100vh + 4rem) ;
+        max-height: calc(80vh + 4rem);
         max-width: 80%;
-        overflow-y: scroll;
+        overflow-y: auto;
         scrollbar-color: white #ff5dff;
         scrollbar-width: thin;
         -ms-overflow-style: none;
         scroll-behavior: smooth;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: flex-start;
         margin: 2rem auto;
         padding: 0 2%;
         align-items: center;
@@ -36,6 +36,7 @@
         border: white.4rem solid;
         border-radius: 10px;
         margin: .5rem auto;
+        padding: .3rem;
     }
 
     .product-container a {
@@ -44,29 +45,14 @@
 
     
 
+
+
     img {
         aspect-ratio: 1 / 1;
         height: 250px;
         width: 250px;
     }
 
-    /*for mobile devices with max decive width of 500*/
-    @media screen and (max-device-width: 500px) {
-        .main-container h3 {
-            margin-top: 3%;
-        }
-    }
-
-
-    /*for mobile devices with max decive width of 1200*/
-    @media screen and (min-width: 870px) {
-        .main-container h3 {
-            margin-top: -8rem;
-        }
-        .best-seller-container {
-            scroll-behavior: auto;
-        }
-    }
 </style>
 
 <h3>Don't let our best deals <span>MELT AWAY!</span></h3>
