@@ -19,6 +19,14 @@
         justify-content: space-between;
         background-color: hsla(350, 93%, 77%, 5);
     }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 1rem;
+    }
 </style>
 
 <nav class="nav-container">
@@ -28,8 +36,13 @@
         </div>
     </a>
     <a>
-        <div>
-            <p>J Money</p>
+        <div class="nav-links">
+            <a href="#best-sellers-title">
+                <p>Best Sellers</p>
+            </a>
+            <a href="#about-us-title">
+                <p>About Us</p>
+            </a>
         </div>
     </a>
 </nav>

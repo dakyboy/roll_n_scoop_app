@@ -58,7 +58,7 @@
 
 </style>
 
-<h3>Don't let our best deals <span>MELT AWAY!</span></h3>
+<h3 id="best-sellers-title">Don't let our best deals <span>MELT AWAY!</span></h3>
 <section class="best-seller-container">
     <div class="product-container">
         <picture>
