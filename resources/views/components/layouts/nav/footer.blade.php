@@ -1,13 +1,15 @@
 <style>
     footer {
         width: 100%;
+        max-height: 20%;
         overflow: hidden;
         flex: 1;
         display: flex;
         justify-content: center;
-        padding: 5px;
+        padding: 1.2rem;
         background-color: #BED0FD;
         color: black;
+        margin-top: 2rem;
     }
 </style>
 <footer>

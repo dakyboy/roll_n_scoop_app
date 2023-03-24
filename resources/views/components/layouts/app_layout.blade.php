@@ -11,13 +11,17 @@
         <link rel="stylesheet" href="{{ secure_asset('/css/app_layout.css') }}">
     </noscript>
     <style>
+        /*Reset*/
         * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
+            
         }
 
         html {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            height: 100vh;
+            min-height:100%;
             font-size: 62.5%;
             min-width: 90%;
             margin: 0 auto;
@@ -26,7 +30,7 @@
 
         body {
             font-size: 1.6rem;
-            height: 100vh;
+            min-height:100vh;
             min-width: 300px;
             margin: 0vh auto;
             background-color: #FFC0CB;
@@ -49,6 +53,7 @@
             display: flex;
             flex-flow: column wrap;
             justify-content: space-between;
+            align-items: center;
         }
 
         .title {
@@ -71,9 +76,10 @@
 
 <body>
     <div class="app-container">
-        <x-layouts.nav.navbar>
-
-        </x-layouts.nav.navbar>
+        <header>
+            <x-layouts.nav.navbar></x-layouts.nav.navbar>
+            <x-layouts.content.title-banner></x-content-title-banner>
+        </header>
         <main>{{ $slot }}</main>
         <x-layouts.nav.footer></x-layouts.nav.footer>
     </div>
