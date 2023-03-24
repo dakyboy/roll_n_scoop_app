@@ -9,6 +9,7 @@
         padding: 1.2rem;
         background-color: #BED0FD;
         color: black;
+        margin-top: 2rem;
     }
 </style>
 <footer>

@@ -53,6 +53,7 @@
             display: flex;
             flex-flow: column wrap;
             justify-content: space-between;
+            align-items: center;
         }
 
         .title {

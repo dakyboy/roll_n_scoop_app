@@ -24,9 +24,11 @@
         flex-flow: row wrap;
         justify-content: flex-start;
         margin: 2rem auto;
-        padding: 0 2%;
+        padding: 2rem 2%;
         align-items: center;
         gap: 2rem 1rem;
+        background-color: rgba(255, 20, 200, 0.28);
+        z-index: 200;
     }
 
     .product-container {
@@ -37,6 +39,7 @@
         border-radius: 10px;
         margin: .5rem auto;
         padding: .3rem;
+        z-index: 220;
     }
 
     .product-container a {

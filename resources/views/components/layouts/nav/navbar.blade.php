@@ -4,9 +4,12 @@
         padding: .1rem;
         display: flex;
         flex-flow: column;
+        z-index: 500;
     }
 
     .nav-container {
+        position: sticky;
+        top: 0;
         width: 100%;
         flex: 1;
         padding: 2rem;
