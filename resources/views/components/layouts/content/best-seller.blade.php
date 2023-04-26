@@ -4,59 +4,7 @@
     $cloudinary = new Cloudinary();
 @endphp
 
-<style>
-    .main-container h3 {
-        border-top: #B55DFF .1rem solid;
-        margin-top: 3%;
-        padding: 1rem 5% 0;
-        text-align: center;
-    }
 
-    .best-seller-container {
-        max-height: calc(80vh + 4rem);
-        max-width: 80%;
-        overflow-y: auto;
-        scrollbar-color: white #ff5dff;
-        scrollbar-width: thin;
-        -ms-overflow-style: none;
-        scroll-behavior: smooth;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        margin: 2rem auto;
-        padding: 2rem 2%;
-        align-items: center;
-        gap: 2rem 1rem;
-        background-color: rgba(255, 20, 200, 0.28);
-        z-index: 200;
-    }
-
-    .product-container {
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        border: white.4rem solid;
-        border-radius: 10px;
-        margin: .5rem auto;
-        padding: .3rem;
-        z-index: 220;
-    }
-
-    .product-container a {
-        color: black;
-    }
-
-    
-
-
-
-    img {
-        aspect-ratio: 1 / 1;
-        height: 250px;
-        width: 250px;
-    }
-
-</style>
 
 <h3 id="best-sellers-title">Don't let our best deals <span>MELT AWAY!</span></h3>
 <section class="best-seller-container">
@@ -133,3 +81,59 @@
         </a>
     </div>
 </section>
+
+<style>
+    .main-container h3 {
+        border-top: #B55DFF .1rem solid;
+        margin-top: 3%;
+        padding: 1rem 5% 0;
+        text-align: center;
+    }
+
+    .best-seller-container {
+        max-height: calc(80vh + 4rem);
+        max-width: 80vw;
+        overflow-x: auto;
+        scrollbar-color: white #ff5dff;
+        scrollbar-width: thin;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+        scroll-behavior: smooth;
+        display: flex;
+        justify-content: flex-start;
+        margin: 2rem auto;
+        padding: 2rem 2%;
+        align-items: center;
+        gap: 2rem 4rem;
+        background-color: rgba(255, 20, 200, 0.28);
+        z-index: 200;
+    }
+
+    .product-container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        border: white.4rem solid;
+        border-radius: 10px;
+        margin: .5rem auto;
+        padding: .3rem;
+        scroll-snap-align: center;
+        z-index: 220;
+    }
+
+    .product-container a {
+        color: black;
+    }
+
+    
+
+
+
+    img {
+        aspect-ratio: 1 / 1;
+        height: 250px;
+        width: 250px;
+    }
+
+</style>
