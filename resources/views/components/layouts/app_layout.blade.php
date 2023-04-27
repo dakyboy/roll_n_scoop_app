@@ -20,7 +20,7 @@
         }
 
         html {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Roboto', sans-serif;
             min-height:100%;
             font-size: 62.5%;
             min-width: 90%;
