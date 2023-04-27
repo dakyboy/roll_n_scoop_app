@@ -85,14 +85,14 @@
 <style>
     .main-container h3 {
         border-top: #B55DFF .1rem solid;
-        margin-top: 3%;
-        padding: 1rem 5% 0;
+        margin-top: 3vh;
+        padding: 1rem 5vw 0;
         text-align: center;
     }
 
     .best-seller-container {
-        max-height: calc(80vh + 4rem);
-        max-width: 80vw;
+        max-height: calc(80vh + 10rem);
+        max-width: 90vw;
         overflow-x: auto;
         scrollbar-color: white #ff5dff;
         scrollbar-width: thin;
@@ -103,7 +103,7 @@
         display: flex;
         justify-content: flex-start;
         margin: 2rem auto;
-        padding: 2rem 2%;
+        padding: 2rem 2vw;
         align-items: center;
         gap: 2rem 4rem;
         background-color: rgba(255, 20, 200, 0.28);
