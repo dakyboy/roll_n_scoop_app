@@ -91,7 +91,6 @@
     }
 
     .best-seller-container {
-        max-height: calc(80vh + 10rem);
         max-width: 90vw;
         overflow-x: auto;
         scrollbar-color: white #ff5dff;

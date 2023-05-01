@@ -21,9 +21,10 @@
 
         html {
             font-family: 'Roboto', sans-serif;
-            min-height:100%;
+            min-height:100vw;
             font-size: 62.5%;
             min-width: 90%;
+            max-width: 100vw;
             margin: 0 auto;
 
         }
@@ -60,6 +61,7 @@
             text-align: center;
             font-size: 9rem;
             margin: 0;
+            margin-top: 10vh;
             padding: 0 5%;
             text-shadow: #7DC4BD 2px 5px;
         }

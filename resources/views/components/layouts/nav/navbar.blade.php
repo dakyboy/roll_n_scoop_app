@@ -1,7 +1,7 @@
 <nav class="nav-container">
     <a>
         <div>
-            <p>King Von</p>
+            <p>Roll & Scoop Joint</p>
         </div>
     </a>
     <a>
@@ -17,7 +17,7 @@
 </nav>
 <style>
     header {
-        width: 100%;
+        width: 100vw;
         padding: .1rem;
         display: flex;
         flex-flow: column;
@@ -25,15 +25,16 @@
     }
 
     .nav-container {
-        position: sticky;
+        position: fixed;
         top: 0;
-        width: 100%;
+        width: 100vw;
         flex: 1;
         padding: 2rem;
-        margin: 0 auto;
+        margin: 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        align-items: center;
         background-color: hsla(350, 93%, 77%, 5);
     }
 
