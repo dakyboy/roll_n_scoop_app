@@ -1,3 +1,20 @@
+<nav class="nav-container">
+    <a>
+        <div>
+            <p>King Von</p>
+        </div>
+    </a>
+    <a>
+        <div class="nav-links">
+            <a href="#best-sellers-title">
+                <p>Best Sellers</p>
+            </a>
+            <a href="#about-us-title">
+                <p>About Us</p>
+            </a>
+        </div>
+    </a>
+</nav>
 <style>
     header {
         width: 100%;
@@ -28,21 +45,3 @@
         padding: 1rem;
     }
 </style>
-
-<nav class="nav-container">
-    <a>
-        <div>
-            <p>King Von</p>
-        </div>
-    </a>
-    <a>
-        <div class="nav-links">
-            <a href="#best-sellers-title">
-                <p>Best Sellers</p>
-            </a>
-            <a href="#about-us-title">
-                <p>About Us</p>
-            </a>
-        </div>
-    </a>
-</nav>
