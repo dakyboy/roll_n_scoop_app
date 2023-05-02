@@ -1,7 +1,11 @@
+<footer>
+    <p>© 2023 Dev Dakii</p>
+</footer>
 <style>
     footer {
-        width: 100%;
-        max-height: 20%;
+        width: 100vw;
+        height: 30vh;
+        max-height: 40vh;
         overflow: hidden;
         flex: 1;
         display: flex;
@@ -12,6 +16,3 @@
         margin-top: 2rem;
     }
 </style>
-<footer>
-    <p>© 2023 Dev Dakii</p>
-</footer>

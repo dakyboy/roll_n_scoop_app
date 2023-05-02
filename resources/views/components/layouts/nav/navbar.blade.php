@@ -1,38 +1,7 @@
-<style>
-    header {
-        width: 100%;
-        padding: .1rem;
-        display: flex;
-        flex-flow: column;
-        z-index: 500;
-    }
-
-    .nav-container {
-        position: sticky;
-        top: 0;
-        width: 100%;
-        flex: 1;
-        padding: 2rem;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        background-color: hsla(350, 93%, 77%, 5);
-    }
-
-    .nav-links {
-        display: flex;
-    }
-
-    .nav-links a {
-        padding: 1rem;
-    }
-</style>
-
 <nav class="nav-container">
     <a>
         <div>
-            <p>King Von</p>
+            <p>Roll & Scoop Joint</p>
         </div>
     </a>
     <a>
@@ -46,3 +15,34 @@
         </div>
     </a>
 </nav>
+<style>
+    header {
+        width: 100vw;
+        padding: .1rem;
+        display: flex;
+        flex-flow: column;
+        z-index: 500;
+    }
+
+    .nav-container {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        flex: 1;
+        padding: 2rem;
+        margin: 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsla(350, 93%, 77%, 5);
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 1rem;
+    }
+</style>
