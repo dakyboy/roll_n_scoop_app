@@ -43,12 +43,13 @@
         background-color: white;
         color: black;
         padding: 2rem 1.6rem;
-        width: 100vw;
+        width: 100%;
         overflow: auto;
     }
 
     .about-us-container p {
-        text-align: justify;
+        text-align: left;
+        font-size: 2rem;
     }
 
     .about-us-container h3 {
@@ -66,5 +67,9 @@
     .about-us-container picture {
         align-self: center;
         padding: 1rem;
+    }
+    
+    #about-us-title {   
+        align-self: center;
     }
 </style>

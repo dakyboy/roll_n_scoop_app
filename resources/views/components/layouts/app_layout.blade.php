@@ -21,17 +21,15 @@
 
         html {
             font-family: 'Roboto', sans-serif;
-            min-height:100vw;
+            min-height:100vh;
             font-size: 62.5%;
-            min-width: 90%;
-            max-width: 100vw;
+            max-width: 100%;
             margin: 0 auto;
 
         }
 
         body {
             font-size: 1.6rem;
-            min-height:100vh;
             min-width: 300px;
             margin: 0vh auto;
             background-color: #FFC0CB;
@@ -61,8 +59,8 @@
             text-align: center;
             font-size: 9rem;
             margin: 0;
-            margin-top: 10vh;
-            padding: 0 5%;
+            margin-top: 15vh;
+            padding: 0 5vw;
             text-shadow: #7DC4BD 2px 5px;
         }
 
@@ -70,8 +68,8 @@
             text-align: center;
             font-size: 2rem;
             margin: 2vh;
-            padding: 0 20%;
-            text-shadow: #7DC4BD 1px 2px
+            padding: 0 20vw;
+            text-shadow: #7DC4BD 1px 2px;
         }
     </style>
 </head>

@@ -28,7 +28,6 @@
         position: fixed;
         top: 0;
         width: 100vw;
-        flex: 1;
         padding: 2rem;
         margin: 0;
         display: flex;

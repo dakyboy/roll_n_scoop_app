@@ -124,10 +124,7 @@
     .product-container a {
         color: black;
         padding: 2rem;
-
-    
-
-
+    }
 
     img {
         aspect-ratio: 1 / 1;
