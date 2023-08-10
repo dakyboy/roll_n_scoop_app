@@ -3,7 +3,7 @@
 </footer>
 <style>
     footer {
-        width: 100vw;
+        width: 100%;
         height: 30vh;
         max-height: 40vh;
         overflow: hidden;

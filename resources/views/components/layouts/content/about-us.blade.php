@@ -5,7 +5,7 @@
 @endphp
 
 <section class="about-us-container">
-    <article class="about-us-copy">
+    <div class="about-us-copy">
         <h3 id="about-us-title">About Us</h3>
         
         <p> Welcome to our ice cream rolls parlor in Jinja! At our parlor, we're passionate about serving up delicious
@@ -34,7 +34,7 @@
             Whether you're looking for a sweet treat to cool off on a hot day or a fun outing with friends and family,
             our parlor has something for everyone. So why not come visit us and indulge in one of our delicious
             hand-rolled ice cream rolls? We guarantee you won't be disappointed!</p>
-    </article>
+        </div>
 </section>
 <style>
     .about-us-container {
@@ -42,13 +42,14 @@
         flex-flow: column wrap;
         background-color: white;
         color: black;
+        width: 100%;
         padding: 2rem 1.6rem;
-        width: 100vw;
         overflow: auto;
     }
 
     .about-us-container p {
-        text-align: justify;
+        text-align: left;
+        font-size: 2rem;
     }
 
     .about-us-container h3 {
@@ -56,15 +57,20 @@
 
     }
 
-    .about-us-container article {
+    .about-us-copy  {
         display: flex;
         padding: 2rem 4rem;
-        flex-flow: column wrap;
+        flex-flow: column;
         align-items: flex-start;
+        width: 100%;
     }
 
     .about-us-container picture {
         align-self: center;
         padding: 1rem;
+    }
+    
+    #about-us-title {   
+        align-self: center;
     }
 </style>

@@ -86,12 +86,16 @@
     .main-container h3 {
         border-top: #B55DFF .1rem solid;
         margin-top: 3vh;
-        padding: 1rem 5vw 0;
+        padding: 1rem 5rem 0;
         text-align: center;
     }
 
+    #best-sellers-title {
+        font-size: 2rem;
+    }
+
     .best-seller-container {
-        max-width: 90vw;
+        width: 90vw;
         overflow-x: auto;
         scrollbar-color: white #ff5dff;
         scrollbar-width: thin;
@@ -124,10 +128,7 @@
     .product-container a {
         color: black;
         padding: 2rem;
-
-    
-
-
+    }
 
     img {
         aspect-ratio: 1 / 1;

@@ -1,34 +1,33 @@
 <nav class="nav-container">
-    <a>
-        <div>
-            <p>Roll & Scoop Joint</p>
-        </div>
-    </a>
-    <a>
-        <div class="nav-links">
-            <a href="#best-sellers-title">
-                <p>Best Sellers</p>
-            </a>
-            <a href="#about-us-title">
-                <p>About Us</p>
-            </a>
-        </div>
-    </a>
+
+    <div>
+        <p>Roll & Scoop Joint</p>
+    </div>
+
+
+    <div class="menu-container">
+
+        <ul class="menu">
+            <li>
+                <a href="#best-sellers-title">
+                    <p>Best Sellers</p>
+                </a>
+            </li>
+            <li>
+                <a href="#about-us-title">
+                    <p>About Us</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
 </nav>
 <style>
-    header {
-        width: 100vw;
-        padding: .1rem;
-        display: flex;
-        flex-flow: column;
-        z-index: 500;
-    }
 
     .nav-container {
         position: fixed;
         top: 0;
-        width: 100vw;
-        flex: 1;
+        width: 100%;
         padding: 2rem;
         margin: 0;
         display: flex;
@@ -38,11 +37,13 @@
         background-color: hsla(350, 93%, 77%, 5);
     }
 
-    .nav-links {
+    .menu-container {
         display: flex;
+        background-color: hsla(350, 53%, 77%, 5);
+        width: 100%;
     }
 
-    .nav-links a {
+    .menu-container a {
         padding: 1rem;
     }
 </style>

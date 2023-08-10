@@ -12,6 +12,17 @@
     .main-container h3 {
         margin-top: 3%;
     }
+
+    .menu-container {
+        display: flex;
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -21,9 +32,6 @@
         margin-top: -8rem;
     }
 
-    .best-seller-container {
-        scroll-behavior: auto;
-    }
 }
 
 /*for mobile devices with max decive width of 1200*/
@@ -31,12 +39,13 @@
     .main-container h3 {
         margin-top: -16rem;
     }
-    .main-container  {
+
+    .main-container {
         padding: 0 8%;
     }
 
     .best-seller-container {
-        max-width: 75%;
+        max-width: 75vw;
     }
 
     .about-us-container {
@@ -44,6 +53,6 @@
     }
 
     .about-us-container article {
-        padding: 2rem 10rem;
+        padding: 2rem 8rem;
     }
 }
