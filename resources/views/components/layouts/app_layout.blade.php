@@ -12,41 +12,42 @@
     </noscript>
     <style>
         /*Reset*/
-        * {
+
+        *,
+        *::after,
+        *::before {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            
+        }
+
+        * {
+            list-style: none;
         }
 
         html {
             font-family: 'Roboto', sans-serif;
-            min-height:100vh;
             font-size: 62.5%;
-            max-width: 100%;
-            margin: 0 auto;
-
+            width: 100%;
+            overflow-x: hidden;
         }
 
         body {
+            min-height: 100vh;
             font-size: 1.6rem;
-            min-width: 300px;
-            margin: 0vh auto;
+            margin: 0 auto;
             background-color: #FFC0CB;
             color: #000000;
-            scrollbar-width: thin;
+            overflow-x: hidden;
         }
 
         .app-container {
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: column;
             justify-content: space-between;
             align-items: center;
         }
-
-        .title-text {
-            flex: 1;
-        }
+      
 
         .main-container {
             display: flex;
@@ -55,20 +56,23 @@
             align-items: center;
         }
 
+        .header {
+            display: flex;
+            flex-flow: column ;
+            align-items: center;
+        }
+
         .title {
             text-align: center;
-            font-size: 9rem;
+            font-size: 4rem;
             margin: 0;
-            margin-top: 15vh;
-            padding: 0 5vw;
+            margin-top: 16rem;
             text-shadow: #7DC4BD 2px 5px;
         }
 
         .sub-title {
             text-align: center;
             font-size: 2rem;
-            margin: 2vh;
-            padding: 0 20vw;
             text-shadow: #7DC4BD 1px 2px;
         }
     </style>
@@ -76,10 +80,11 @@
 
 <body>
     <div class="app-container">
-        <header>
+        <div class="header">
             <x-layouts.nav.navbar></x-layouts.nav.navbar>
-            <x-layouts.content.title-banner></x-content-title-banner>
-        </header>
+            <x-layouts.content.title-banner>
+                </x-content-title-banner>
+        </div>
         <main>{{ $slot }}</main>
         <x-layouts.nav.footer></x-layouts.nav.footer>
     </div>
