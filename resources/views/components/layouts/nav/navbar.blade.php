@@ -35,15 +35,28 @@
         justify-content: space-between;
         align-items: center;
         background-color: hsla(350, 93%, 77%, 5);
+        z-index: 10;
     }
 
     .menu-container {
-        display: flex;
-        background-color: hsla(350, 53%, 77%, 5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: -100;
+        background-color: rgba(0, 0, 0, 0.6);
     }
 
     .menu-container a {
         padding: 1rem;
+    }
+
+    .menu p {
+        color: aliceblue;
     }
 </style>

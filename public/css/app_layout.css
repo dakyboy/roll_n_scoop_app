@@ -12,17 +12,7 @@
     .main-container h3 {
         margin-top: 3%;
     }
-
-    .menu-container {
-        display: flex;
-        position: absolute;
-        top: 0;
-        margin-top: 50px;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
 
 
