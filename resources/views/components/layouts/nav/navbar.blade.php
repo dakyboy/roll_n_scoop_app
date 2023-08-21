@@ -4,6 +4,11 @@
         <p>Roll & Scoop Joint</p>
     </div>
 
+    <div>
+        <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()" class="hamburger">
+        <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
+    </div>
+
 
     <div id="menu-container">
 
@@ -35,7 +40,7 @@
         justify-content: space-between;
         align-items: center;
         background-color: hsla(350, 93%, 77%, 5);
-        z-index: 10;
+        z-index: 2;
     }
 
     #menu-container {
@@ -49,15 +54,29 @@
         justify-content: center;
         align-items: center;
         visibility: hidden;
-        z-index: -100;
         background-color: rgba(0, 0, 0, 0.6);
     }
 
-    .menu-container a {
+    .menu a {
         padding: 1rem;
     }
 
     .menu p {
         color: aliceblue;
+    }
+
+    .hamburger {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+
+    #close-menu-button {
+        z-index: -4;
+        width: 0;
+        height: 0;
     }
 </style>
