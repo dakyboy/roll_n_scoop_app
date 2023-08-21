@@ -88,6 +88,7 @@
         <main>{{ $slot }}</main>
         <x-layouts.nav.footer></x-layouts.nav.footer>
     </div>
+    <script src="/rollnscoop.js"></script>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
     </div>
 
 
-    <div class="menu-container">
+    <div id="menu-container">
 
         <ul class="menu">
             <li>
@@ -38,7 +38,7 @@
         z-index: 10;
     }
 
-    .menu-container {
+    #menu-container {
         position: fixed;
         top: 0;
         left: 0;
