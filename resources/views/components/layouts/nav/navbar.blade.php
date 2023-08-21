@@ -48,6 +48,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        visibility: hidden;
         z-index: -100;
         background-color: rgba(0, 0, 0, 0.6);
     }
