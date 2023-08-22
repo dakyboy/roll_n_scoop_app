@@ -10,7 +10,7 @@ function openMenu() {
     openMenuButton.style.width = "0";
     closeMenuButton.style.zIndex = "4";
     closeMenuButton.style.width = "32px";
-    closeMenuButton.style.height = "32px"
+    closeMenuButton.style.height = "32px";
     
 }
 // Hide Menu

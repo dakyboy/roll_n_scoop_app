@@ -14,12 +14,12 @@
 
         <ul class="menu">
             <li>
-                <a href="#best-sellers-title">
+                <a href="#best-sellers-title" onclick="closeMenu()">
                     <p>Best Sellers</p>
                 </a>
             </li>
             <li>
-                <a href="#about-us-title">
+                <a href="#about-us-title" onclick="closeMenu()">
                     <p>About Us</p>
                 </a>
             </li>
@@ -51,10 +51,10 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         visibility: hidden;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.85);
     }
 
     .menu a {
@@ -62,7 +62,8 @@
     }
 
     .menu p {
-        color: aliceblue;
+        color: white;
+        font-size: 2rem;
     }
 
     .hamburger {
@@ -75,6 +76,8 @@
     }
 
     #close-menu-button {
+        background-color: white;
+        opacity: .7;
         z-index: -4;
         width: 0;
         height: 0;
